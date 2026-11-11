@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated runs and large intermediate assets
+results/
+runs/
+logs/
+cache/
+raw/
+*.npy
+*.npz
+*.pt
+*.pth
+*.bin
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Candidate predictions and evaluation output
+data/**/candidate_pairs.jsonl
+*_predictions.jsonl
+*responses.jsonl
